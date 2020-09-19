@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>
 
-  <arg name="world_name" default="worlds/empty.world"/>
+  <arg name="world_name" default="worlds/empty.world"/> <!-- $(find algo)/algo -->
   <arg name="robot_namespace" default="/husky_unal"/>
 
   <!-- Launch Gazebo -->
